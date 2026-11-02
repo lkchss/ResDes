@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "id": "aer",
+  "title": "American Economic Review",
+  "scope": {
+    "publication": "American Economic Review",
+    "article_types": [
+      "research article"
+    ],
+    "stages": [
+      "initial",
+      "revision",
+      "final"
+    ]
+  },
+  "coverage_note": "Partial profile; only listed rules covered. Check current article-specific and editorial instructions.",
+  "sources": [
+    {
+      "id": "style",
+      "url": "https://www.aeaweb.org/journals/aer/style-guide",
+      "title": "AER Style Guide",
+      "accessed_on": "2026-11-02",
+      "verification_state": "verified"
+    }
+  ],
+  "rules": [
+    {
+      "id": "aer.columns",
+      "key": "table.columns",
+      "summary": "Tables may have at most nine columns, including row headings.",
+      "source_id": "style",
+      "source_summary": "Tables may have at most nine columns, including row headings.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "table"
+        ]
+      },
+      "constraint": {
+        "kind": "max",
+        "value": 9,
+        "unit": "columns"
+      }
+    },
+    {
+      "id": "aer.shading",
+      "key": "table.shading",
+      "summary": "Do not use table shading.",
+      "source_id": "style",
+      "source_summary": "Do not use table shading.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "table"
+        ]
+      },
+      "constraint": {
+        "kind": "prohibited",
+        "value": true,
+        "unit": null
+      }
+    },
+    {
+      "id": "aer.vertical-borders",
+      "key": "table.vertical_borders",
+      "summary": "Use only horizontal lines and blank space to separate table content.",
+      "source_id": "style",
+      "source_summary": "Use only horizontal lines and blank space to separate table content.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "table"
+        ]
+      },
+      "constraint": {
+        "kind": "prohibited",
+        "value": true,
+        "unit": null
+      }
+    },
+    {
+      "id": "aer.stars",
+      "key": "table.significance_asterisks",
+      "summary": "Do not use asterisks for significance of estimates.",
+      "source_id": "style",
+      "source_summary": "Do not use asterisks for significance of estimates.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "table"
+        ]
+      },
+      "constraint": {
+        "kind": "prohibited",
+        "value": true,
+        "unit": null
+      }
+    },
+    {
+      "id": "aer.standard-errors",
+      "key": "table.standard_errors",
+      "summary": "Report standard errors in parentheses for estimation results.",
+      "source_id": "style",
+      "source_summary": "Report standard errors in parentheses for estimation results.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "table"
+        ]
+      },
+      "constraint": null
+    },
+    {
+      "id": "aer.headings",
+      "key": "table.abbreviated_headings",
+      "summary": "Do not abbreviate column headings.",
+      "source_id": "style",
+      "source_summary": "Do not abbreviate column headings.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "table"
+        ]
+      },
+      "constraint": {
+        "kind": "prohibited",
+        "value": true,
+        "unit": null
+      }
+    },
+    {
+      "id": "aer.vector",
+      "key": "figure.vector_format",
+      "summary": "Supply figures as vector-based graphics in vector PDF, EPS, AI, WMF, or PPT.",
+      "source_id": "style",
+      "source_summary": "Supply figures as vector-based graphics in vector PDF, EPS, AI, WMF, or PPT.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "figure"
+        ]
+      },
+      "constraint": null
+    },
+    {
+      "id": "aer.image-resolution",
+      "key": "figure.photo_resolution",
+      "summary": "Provide photographs and other images such as maps and screenshots at 300 dpi.",
+      "source_id": "style",
+      "source_summary": "Provide photographs and other images such as maps and screenshots at 300 dpi.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "figure"
+        ]
+      },
+      "constraint": null
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "T1",
+      "title": "Design of tables for the presentation and communication of data in ecological and evolutionary biology",
+      "authors": [
+        "Miriam Remshard",
+        "Simon A. Queenborough"
+      ],
+      "year": 2023,
+      "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ece3.10062",
+      "source_type": "empirical",
+      "verification_state": "verified",
+      "accessed_on": "2026-11-02",
+      "attempted_on": "2026-11-02",
+      "supported_claims": [
+        {
+          "claim": "The authors synthesized table-design guidelines and surveyed 1,068 ecology and evolution tables, observing frequent misalignment of numerical columns.",
+          "location": "PDFpp1-6: abstract, design principles, methods, results including1068-table total",
+          "applicability": "Academic table alignment and descriptive practice",
+          "limits": "Observational design survey; alignment recommendations are not causal findings."
+        }
+      ],
+      "access_note": "Root and coordinator directly inspected publisher PDF after worker read indexed excerpts; nine pages. Earlier PMC access failure retained as an alternate-endpoint limitation.",
+      "inspection_level": "direct publisher PDF: abstract, sections2.1-2.1.6, Table1 caption, methods and results",
+      "direct_access_state": "accessible: publisher PDF; alternate PMC endpoint CAPTCHA",
+      "verification_scope": "inspected primary-PDF sections; survey findings are observational and guidelines are expert synthesis, not a reader-performance trial",
+      "evidence_subtypes": [
+        "observational publication survey",
+        "literature-based expert design guidance"
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "How well do commonly used data presentation formats support comparative effectiveness evaluations?",
+      "authors": [
+        "James G. Dolan",
+        "Feng Qian",
+        "Peter J. Veazie"
+      ],
+      "year": 2012,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22618998/",
+      "source_type": "empirical",
+      "verification_state": "verified",
+      "accessed_on": "2026-11-02",
+      "attempted_on": "2026-11-02",
+      "supported_claims": [
+        {
+          "claim": "Comparative accuracy differed among five tested risk displays and varied by screening outcome; ordinal accuracy differences were not statistically significant.",
+          "location": "Results: comparative and ordinal accuracy; PubMed bibliographic record",
+          "applicability": "Specific screening risk comparisons",
+          "limits": "Does not establish universal advantages for tables or bar charts."
+        }
+      ],
+      "access_note": "Inspected indexed full-text results and PubMed bibliographic record; direct PMC page returned a CAPTCHA.",
+      "inspection_level": "indexed full-text results excerpts and PubMed bibliographic record",
+      "direct_access_state": "blocked: PMC and PubMed CAPTCHA; original PDF cache miss",
+      "verification_scope": "partial: cited indexed excerpts only; full source content not verified"
+    },
+    {
+      "id": "T3",
+      "title": "Using simulation studies to evaluate statistical methods",
+      "authors": [
+        "Tim P. Morris",
+        "Ian R. White",
+        "Michael J. Crowther"
+      ],
+      "year": 2019,
+      "url": "https://doi.org/10.1002/sim.8086",
+      "source_type": "expert_guidance",
+      "verification_state": "verified",
+      "accessed_on": "2026-11-02",
+      "attempted_on": "2026-11-02",
+      "supported_claims": [
+        {
+          "claim": "Simulation result tables must organize scenarios, methods, estimands and performance measures; placing method comparisons adjacent competes with displaying Monte Carlo standard errors.",
+          "location": "Page 17, table design discussion",
+          "applicability": "Simulation method comparisons",
+          "limits": "Tutorial advice, not an experimental comparison of layouts."
+        }
+      ],
+      "access_note": "Directly inspected the relevant section of the UCL-hosted manuscript: https://discovery.ucl.ac.uk/10066118/1/2019%20-%20Morris%20-%20simulation%20studies%20tutorial%20-%20stat%20med.pdf",
+      "inspection_level": "directly inspected author manuscript, page 17 (PDF index 16), table-design discussion and title page",
+      "direct_access_state": "accessible: UCL manuscript; arXiv PDF exceeded web tool size limit"
+    },
+    {
+      "id": "T4",
+      "title": "Creating Effective and Efficient Tables",
+      "authors": [],
+      "year": 2024,
+      "url": "https://academic.oup.com/book/58841/chapter/489872324",
+      "source_type": "expert_guidance",
+      "verification_state": "verified",
+      "accessed_on": "2026-11-02",
+      "attempted_on": "2026-11-02",
+      "supported_claims": [
+        {
+          "claim": "Table structure should reflect its communicative purpose; presentation and archival tables have distinct functions, and self-contained tables identify units, group and statistics.",
+          "location": "Indexed abstract and visible chapter excerpts, including study characteristics",
+          "applicability": "Biomedical reporting",
+          "limits": "Guidance, not a reader experiment; chapter authors were not visible in inspected metadata."
+        }
+      ],
+      "access_note": "Chapter byline not verified. Book attribution is separate; only indexed abstract and excerpts were inspected.",
+      "inspection_level": "indexed abstract and chapter excerpts only",
+      "direct_access_state": "blocked: full chapter redirect inaccessible",
+      "book_attribution": "Principles of Scientific Writing and Biomedical Publication: A JAMA Editors Guide for Authors",
+      "verification_scope": "partial: cited indexed excerpts only; full source content not verified"
+    },
+    {
+      "id": "T5",
+      "title": "Legacy/undated OUP Instructions to Authors: Political Analysis",
+      "authors": [
+        "Political Analysis"
+      ],
+      "year": null,
+      "url": "https://academic.oup.com/pan/pages/Instructions_To_Authors",
+      "source_type": "editorial_requirements",
+      "verification_state": "verified",
+      "accessed_on": "2026-11-02",
+      "attempted_on": "2026-11-02",
+      "supported_claims": [
+        {
+          "claim": "The legacy OUP-hosted page advocated self-explanatory displays with units, meaningful precision and estimation uncertainty, and discouraged routine significance stars.",
+          "location": "Tables and Figures, lines 109\u2013128",
+          "applicability": "Historical editorial design advice; not verified current author instructions",
+          "limits": "Undated legacy publisher page; establish current journal authority separately before applying submission rules."
+        }
+      ],
+      "access_note": "Page text directly inspected; its current authority was not established. Root identified publisher-transition risk, so it is explicitly legacy/undated.",
+      "inspection_level": "direct page: Tables and Figures section",
+      "direct_access_state": "accessible",
+      "verification_scope": "legacy undated page content only; current submission authority unverified",
+      "authority_scope": "Historical OUP-hosted instructions, retained as an example of design advice; do not use for current submission compliance."
+    },
+    {
+      "id": "T6",
+      "title": "Spatial Coordinates as a Cell Language: A Multi-Sentence Framework for Imaging Mass Cytometry Analysis",
+      "authors": [
+        "Chi-Jane Chen",
+        "Yuhang Chen",
+        "Sukwon Yun",
+        "Natalie Stanley",
+        "Tianlong Chen"
+      ],
+      "year": 2025,
+      "url": "https://aclanthology.org/2025.findings-acl.685.pdf",
+      "source_type": "scholarly_example",
+      "verification_state": "verified",
+      "accessed_on": "2026-11-02",
+      "attempted_on": "2026-11-02",
+      "supported_claims": [
+        {
+          "claim": "Table 2 displays a full model and component removals as rows, with prediction tasks grouped under two datasets.",
+          "location": "Table 2, PDF page 5, extracted lines 324\u2013394",
+          "applicability": "One computational biology ablation example",
+          "limits": "Example of an existing structure, not evidence of reader effectiveness or a model of complete uncertainty reporting."
+        }
+      ],
+      "access_note": "Inspected paper table text and indexed author metadata.",
+      "inspection_level": "direct PDF: Table 2 and nearby experiment description",
+      "direct_access_state": "accessible"
+    },
+    {
+      "id": "T7",
+      "title": "Guidelines for Formatting Manuscripts",
+      "authors": [
+        "IEEE Professional Communication Society"
+      ],
+      "year": null,
+      "url": "https://procomm.ieee.org/transactions-of-professional-communication/for-prospective-authors/guidelines-to-follow/guidelines-for-formatting-manuscripts/",
+      "source_type": "editorial_requirements",
+      "verification_state": "verified",
+      "accessed_on": "2026-11-02",
+      "attempted_on": "2026-11-02",
+      "supported_claims": [
+        {
+          "claim": "This venue specifies table titles and notes and permits internal vertical lines in tables with three or more columns.",
+          "location": "Formatting Tables, Charts, Figures, and Illustrations, lines 22\u201363",
+          "applicability": "IEEE Transactions on Professional Communication",
+          "limits": "Venue-specific, not a uniform IEEE requirement or experimental evidence."
+        }
+      ],
+      "access_note": "Inspected live page; no publication date identified.",
+      "inspection_level": "direct page: table formatting section",
+      "direct_access_state": "accessible"
+    },
+    {
+      "id": "T8",
+      "title": "AER Style Guide",
+      "authors": [
+        "American Economic Review"
+      ],
+      "year": null,
+      "url": "https://www.aeaweb.org/journals/aer/style-guide",
+      "source_type": "editorial_requirements",
+      "verification_state": "verified",
+      "accessed_on": "2026-11-02",
+      "attempted_on": "2026-11-02",
+      "inspection_level": "direct page: Tables section",
+      "direct_access_state": "accessible",
+      "supported_claims": [
+        {
+          "claim": "The AER specifies standard errors in parentheses and disallows significance asterisks for estimation results.",
+          "location": "Tables section, lines 83\u201395",
+          "applicability": "American Economic Review submissions",
+          "limits": "Venue-specific editorial rules, not evidence of superior reader performance."
+        }
+      ],
+      "access_note": "Inspected current official AER table section; no publication date identified."
+    },
+    {
+      "id": "T9",
+      "title": "Tables and Figures",
+      "authors": [
+        "American Psychological Association"
+      ],
+      "year": null,
+      "url": "https://apastyle.apa.org/style-grammar-guidelines/tables-figures",
+      "source_type": "expert_guidance",
+      "verification_state": "verified",
+      "accessed_on": "2026-11-02",
+      "attempted_on": "2026-11-02",
+      "supported_claims": [
+        {
+          "claim": "APA describes tables as numerical or textual information organized into rows and columns, with examples including means, standard deviations and lists of stimuli.",
+          "location": "Tables and Figures overview, lines 20\u201329",
+          "applicability": "Social and behavioral science communication",
+          "limits": "Overview only; does not prescribe the illustrative design in this draft."
+        }
+      ],
+      "access_note": "Inspected live overview; no publication date identified.",
+      "inspection_level": "direct page: tables and figures overview",
+      "direct_access_state": "accessible"
+    },
+    {
+      "id": "T10",
+      "title": "Formatting Instructions: Nature Communications",
+      "authors": [
+        "Nature Communications"
+      ],
+      "year": 2021,
+      "url": "https://www.nature.com/documents/ncomms-formatting-instructions.pdf",
+      "source_type": "editorial_requirements",
+      "verification_state": "verified",
+      "accessed_on": "2026-11-02",
+      "attempted_on": "2026-11-02",
+      "supported_claims": [
+        {
+          "claim": "Instructions request editable Word or LaTeX tables and specify restrictions on styling and cell structure.",
+          "location": "PDF page 5, Tables section",
+          "applicability": "Nature Communications submissions",
+          "limits": "Journal-specific instructions; current applicability should be reconfirmed with the journal."
+        }
+      ],
+      "access_note": "Directly inspected PDF; revision date May 7, 2021. Check current guidance.",
+      "inspection_level": "direct PDF: tables section, page 5, and revision date",
+      "direct_access_state": "accessible"
+    }
+  ],
+  "synthesis_limits": [
+    "Verified means the particular registered claim was inspected at the stated level, not that the full work was read.",
+    "AER rules are verified; regression layout and general IEEE engineering task patterns remain synthesis rather than experimentally validated journal guidance.",
+    "Direct PDF access failed for Dolan; indexed text supplied the narrow result. The Morris table-design section was directly inspected in the UCL author manuscript.",
+    "Observational surveys and expert recommendations are distinguished from controlled tests of reader performance; venue requirements may change."
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "sources": [
+    {
+      "supported_claims": [
+        {
+          "location": "Abstract; sections 2\u20134",
+          "applicability": "Quantitative comparisons",
+          "limits": "Specified extraction tasks, not all design objectives.",
+          "claim": "Experiments compare accuracy of elementary visual judgments including position, length and angle."
+        }
+      ],
+      "year": 1984,
+      "authors": [
+        "William S. Cleveland",
+        "Robert McGill"
+      ],
+      "url": "https://faculty.washington.edu/aragon/classes/hcde511/s12/readings/cleveland84.pdf",
+      "access_note": "PDF: abstract and sections 2\u20134 inspected through direct institutional copy.",
+      "verification_state": "verified",
+      "source_type": "empirical",
+      "accessed_on": "2026-11-02",
+      "title": "Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods",
+      "attempted_on": "2026-11-02",
+      "id": "F1",
+      "inspection_level": "section",
+      "direct_access_state": "accessible"
+    },
+    {
+      "supported_claims": [
+        {
+          "location": "Abstract; figures 1\u20133",
+          "applicability": "Continuous observations and paired designs",
+          "limits": "Perspective with review of physiology publications; not a universal ban on bars.",
+          "claim": "Small-sample summary plots can hide distributions and within-unit observations."
+        }
+      ],
+      "year": 2015,
+      "authors": [
+        "Tracey L. Weissgerber",
+        "Natasa M. Milic",
+        "Stacey J. Winham",
+        "Vesna D. Garovic"
+      ],
+      "url": "https://journals.plos.org/plosbiology/article/file?id=10.1371%2Fjournal.pbio.1002128&type=printable",
+      "access_note": "PDF: abstract and introduction with figure descriptions inspected through publisher copy.",
+      "verification_state": "verified",
+      "source_type": "expert_guidance",
+      "accessed_on": "2026-11-02",
+      "title": "Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm",
+      "attempted_on": "2026-11-02",
+      "id": "F2",
+      "inspection_level": "section",
+      "direct_access_state": "accessible"
+    },
+    {
+      "supported_claims": [
+        {
+          "location": "Statistical presentation and graphics",
+          "applicability": "Psychology and social science",
+          "limits": "Historical guidance; not current APA production requirements.",
+          "claim": "Psychological research reporting should support interpretable estimates and visual displays."
+        }
+      ],
+      "year": 1999,
+      "authors": [
+        "Leland Wilkinson",
+        "Task Force on Statistical Inference"
+      ],
+      "url": "https://www.apa.org/pubs/journals/releases/amp-54-8-594.pdf",
+      "access_note": "PDF: task-force text, including tables and figures section, inspected through APA copy.",
+      "verification_state": "verified",
+      "source_type": "expert_guidance",
+      "accessed_on": "2026-11-02",
+      "title": "Statistical Methods in Psychology Journals: Guidelines and Explanations",
+      "attempted_on": "2026-11-02",
+      "id": "F3",
+      "inspection_level": "section",
+      "direct_access_state": "accessible"
+    },
+    {
+      "supported_claims": [
+        {
+          "location": "Abstract, figure 1 and evaluation",
+          "applicability": "Mean and uncertainty inference",
+          "limits": "Crowdsourced audiences and specified designs; violin-like form represents estimated uncertainty, not raw sample density.",
+          "claim": "Different uncertainty encodings affected judgments; continuous encodings reduced specific biases in tested tasks."
+        }
+      ],
+      "year": 2014,
+      "authors": [
+        "Michael Correll",
+        "Michael Gleicher"
+      ],
+      "url": "https://vis.csail.mit.edu/classes/6.859/readings/pdfs/Corell-ErrorBarsConsideredHarmful.pdf",
+      "access_note": "PDF: abstract, figure 1 and evaluation discussion inspected through institutional copy.",
+      "verification_state": "verified",
+      "source_type": "empirical",
+      "accessed_on": "2026-11-02",
+      "title": "Error Bars Considered Harmful: Exploring Alternate Encodings for Mean and Error",
+      "attempted_on": "2026-11-02",
+      "id": "F4",
+      "inspection_level": "section",
+      "direct_access_state": "accessible"
+    },
+    {
+      "supported_claims": [
+        {
+          "location": "Figure and checklist items 22 and 26",
+          "applicability": "Randomized trials",
+          "limits": "Guideline, not proof of design validity; focused on parallel two-group trials.",
+          "claim": "Trial reporting includes participant flow, outcome denominators, effect precision, and absolute and relative effects for binary outcomes."
+        }
+      ],
+      "year": 2025,
+      "authors": [
+        "Sally Hopewell",
+        "An-Wen Chan",
+        "Gary S. Collins",
+        "et al."
+      ],
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2832868",
+      "access_note": "Full article: checklist and flow-diagram description inspected through JAMA.",
+      "verification_state": "verified",
+      "source_type": "expert_guidance",
+      "accessed_on": "2026-11-02",
+      "title": "CONSORT 2025 Statement: Updated Guideline for Reporting Randomized Trials",
+      "attempted_on": "2026-11-02",
+      "id": "F5",
+      "inspection_level": "section",
+      "direct_access_state": "accessible"
+    },
+    {
+      "supported_claims": [
+        {
+          "location": "Abstract and introduction",
+          "applicability": "Difference-in-differences event studies",
+          "limits": "Theory and calibrated simulations; does not establish that any plot proves parallel trends.",
+          "claim": "Pretrend tests may have low power; conditioning on passing one can distort estimation and inference."
+        }
+      ],
+      "year": 2022,
+      "authors": [
+        "Jonathan Roth"
+      ],
+      "url": "https://www.aeaweb.org/content/file?id=15847",
+      "access_note": "PDF: abstract and introduction inspected through AEA institutional copy; theory and calibrated simulations, not a reader-perception experiment.",
+      "verification_state": "verified",
+      "source_type": "empirical",
+      "accessed_on": "2026-11-02",
+      "title": "Pretest with Caution: Event-Study Estimates after Testing for Parallel Trends",
+      "attempted_on": "2026-11-02",
+      "id": "F6",
+      "inspection_level": "section",
+      "direct_access_state": "accessible",
+      "evidence_subtypes": [
+        "methodological theory",
+        "calibrated simulation"
+      ]
+    },
+    {
+      "supported_claims": [
+        {
+          "location": "Abstract and colour-map selection guidance, figures 1 and 5",
+          "applicability": "Scientific scalar colour maps",
+          "limits": "Perspective, not a guarantee that a palette is accessible in every context.",
+          "claim": "Uneven and inaccessible colour maps can distort or hide scientific information; map class should match data."
+        }
+      ],
+      "year": 2020,
+      "authors": [
+        "Fabio Crameri",
+        "Grace E. Shephard",
+        "Philip J. Heron"
+      ],
+      "url": "https://www.nature.com/articles/s41467-020-19160-7.pdf",
+      "access_note": "PDF: abstract and colour selection guidance inspected through publisher copy.",
+      "verification_state": "verified",
+      "source_type": "expert_guidance",
+      "accessed_on": "2026-11-02",
+      "title": "The misuse of colour in science communication",
+      "attempted_on": "2026-11-02",
+      "id": "F7",
+      "inspection_level": "section",
+      "direct_access_state": "accessible"
+    },
+    {
+      "supported_claims": [
+        {
+          "location": "Brightness/contrast; linear vs nonlinear adjustments; image assembly",
+          "applicability": "Microscopy and blot images",
+          "limits": "JCB editorial guidance from 2004; verify current destination policy.",
+          "claim": "Selective manipulation, obscuring image features, and undisclosed assembly can misrepresent original image data."
+        }
+      ],
+      "year": 2004,
+      "authors": [
+        "Mike Rossner",
+        "Kenneth M. Yamada"
+      ],
+      "url": "https://rupress.org/jcb/article/166/1/11/34064/What-s-in-a-picture-The-temptation-of-image",
+      "access_note": "Full article: contrast adjustment and image assembly sections inspected through publisher page.",
+      "verification_state": "verified",
+      "source_type": "editorial_requirements",
+      "accessed_on": "2026-11-02",
+      "title": "What's in a picture? The temptation of image manipulation",
+      "attempted_on": "2026-11-02",
+      "id": "F8",
+      "inspection_level": "section",
+      "direct_access_state": "accessible"
+    },
+    {
+      "id": "F9",
+      "title": "Inference by Eye: Confidence Intervals and How to Read Pictures of Data",
+      "authors": [
+        "Geoff Cumming",
+        "Sue Finch"
+      ],
+      "year": 2005,
+      "url": "https://courses.media.mit.edu/2010spring/mas964/Week3/cumming2005.pdf",
+      "source_type": "expert_guidance",
+      "verification_state": "verified",
+      "accessed_on": "2026-11-02",
+      "attempted_on": "2026-11-02",
+      "supported_claims": [
+        {
+          "claim": "Separate confidence-interval overlap has design-dependent interpretation; a direct interval on the difference is preferable when available.",
+          "location": "Rules of eye 1 and 4; paired data discussion, pp. 172\u2013176",
+          "applicability": "Inference on means and their differences",
+          "limits": "Approximate overlap rules have explicit assumptions; paired observations cannot be interpreted from marginal intervals alone."
+        }
+      ],
+      "access_note": "PDF: CI basics, independent-group overlap rule and paired-data discussion inspected through institutional copy.",
+      "inspection_level": "section",
+      "direct_access_state": "accessible"
+    },
+    {
+      "id": "F10",
+      "title": "Why a Diagram is (Sometimes) Worth Ten Thousand Words",
+      "authors": [
+        "Jill H. Larkin",
+        "Herbert A. Simon"
+      ],
+      "year": 1987,
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1551-6708.1987.tb00863.x",
+      "source_type": "expert_guidance",
+      "verification_state": "verified",
+      "accessed_on": "2026-11-02",
+      "attempted_on": "2026-11-02",
+      "supported_claims": [
+        {
+          "claim": "Spatial indexing can place relevant information together and reduce search in task-specific diagrammatic representations.",
+          "location": "Publisher abstract; computational comparison of illustrative problems",
+          "applicability": "Diagrammatic reasoning and layout",
+          "limits": "Computational theoretical analysis, not a controlled test of every diagram or an arrow-design standard."
+        }
+      ],
+      "access_note": "Publisher page: abstract inspected directly; publisher abstract presents the authors computational comparison.",
+      "inspection_level": "abstract",
+      "direct_access_state": "accessible"
+    }
+  ],
+  "schema_version": 1,
+  "synthesis_limits": [
+    "Conditional recommendations are synthesis unless attributed; studies do not establish universal plot-family rankings.",
+    "Journal examples identify research tasks and reporting guidance rather than journal-wide aesthetic styles.",
+    "Guidance and editorial policies change; verify target venue requirements."
+  ]
+}

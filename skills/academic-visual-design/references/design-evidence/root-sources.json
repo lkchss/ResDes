@@ -1,0 +1,105 @@
+{
+  "retrieved_on": "2026-11-02",
+  "scope": "Cross-artifact design context; concise paraphrases, no reproduced publication figures",
+  "sources": [
+    {
+      "id": "R01",
+      "title": "The Science of Visual Data Communication: What Works",
+      "authors": "Franconeri, Padilla, Shah, Zacks and Hullman",
+      "year": 2021,
+      "url": "https://doi.org/10.1177/15291006211051956",
+      "evidence_type": "research synthesis",
+      "inspection": "Publisher full text: abstract, scope, encoding tasks, grouping/working-memory discussion and rich/minimalistic design section; correction checked separately",
+      "supported_claim": "Design depends on reader tasks and knowledge; blanket decluttering has mixed evidence rather than universal performance benefits.",
+      "limit": "Review focuses on communication to nonspecialists, not all expert scientific workflows. Do not turn reviewed channel rankings into universal rules.",
+      "visual_reference": "Figures 13 and 15 provide grouping/legend and clutter contrasts; link for reading, do not reproduce.",
+      "verified": true
+    },
+    {
+      "id": "R02",
+      "title": "Corrigendum: The Science of Visual Data Communication: What Works",
+      "year": 2022,
+      "url": "https://doi.org/10.1177/15291006221099494",
+      "evidence_type": "published correction",
+      "inspection": "Publisher correction text",
+      "supported_claim": "Corrects color-vision/palette examples and descriptions of an uncertainty experiment.",
+      "limit": "Use corrected material; the correction is not a separate design efficacy study.",
+      "verified": true
+    },
+    {
+      "id": "R03",
+      "title": "Assessing Effects of Task and Data Distribution on the Effectiveness of Visual Encodings",
+      "authors": "Younghoon Kim and Jeffrey Heer",
+      "year": 2018,
+      "url": "https://idl.uw.edu/papers/task-data-effectiveness",
+      "full_text": "https://idl.cs.washington.edu/files/2018-TaskDataEffectiveness-EuroVis.pdf",
+      "evidence_type": "controlled crowdsourced experiment",
+      "inspection": "Author page and paper: abstract, introduction and experimental design",
+      "supported_claim": "Encoding performance varies with task and data characteristics; colored scatterplots suitable for individual comparisons can perform poorly for aggregate comparisons with many categories.",
+      "limit": "Tested trivariate displays and specified tasks; no universal conclusion about every academic figure or table.",
+      "visual_reference": "Paper Figure 1 contrasts experimental displays for read-value and compare-average tasks.",
+      "verified": true
+    },
+    {
+      "id": "R04",
+      "title": "Scientific illustration for commissioned content: Our guiding principles for conceptual figures",
+      "authors": "Nature art teams",
+      "year": null,
+      "url": "https://www.nature.com/documents/Nature_scientific_illustration_author_guide.pdf",
+      "evidence_type": "editorial design guidance",
+      "inspection": "Four-page official PDF text; pages 2 and 4 identified as published visual references",
+      "supported_claim": "Explain symbols and arrow meanings, organize hierarchy around the mechanism, and reconsider icon-decorated lists that would work better as tables.",
+      "limit": "Commissioned conceptual figures, particularly explanatory/review material; not a general quantitative chart rule or all-journal submission specification.",
+      "visual_reference": "Pages 2 and 4: simplified mechanism and faux-figure/table contrast.",
+      "verified": true
+    },
+    {
+      "id": "R05",
+      "title": "Preparing figures — our specifications",
+      "authors": "Nature research figure guide",
+      "year": null,
+      "url": "https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/",
+      "evidence_type": "publisher production guidance",
+      "inspection": "Official graph, text, scale-bar and font sections",
+      "supported_claim": "This guide specifies editable standard-font text, 5–7 pt main figure text, 8 pt bold lowercase panel labels, and an avoidance preference for background gridlines.",
+      "limit": "Scoped Nature production instructions, not universal design optima. Recheck article/asset/stage and conflicts with supplied editor instructions. The earlier pilot's 8 pt minimum was an explicitly synthetic author/editor brief, not this specification.",
+      "verified": true
+    },
+    {
+      "id": "R06",
+      "title": "Accessibility Guide for Authors",
+      "authors": "ACM SIGCHI",
+      "year": 2024,
+      "url": "https://sigchi.org/resources/guides-for-authors/accessibility/",
+      "evidence_type": "professional accessibility guidance",
+      "inspection": "Authoring and HTML/PDF export sections; page dated 2024-08-15",
+      "supported_claim": "Use semantic tables and headers, non-color identifying cues and meaningful figure descriptions; verify exported accessibility metadata.",
+      "limit": "Venue-specific requirements can differ; visible screenshots cannot establish semantic PDF accessibility.",
+      "verified": true
+    },
+    {
+      "id": "R07",
+      "title": "Tips for Tables, Charts, and Figures",
+      "authors": "NIH Grants & Funding",
+      "year": 2024,
+      "url": "https://www.grants.nih.gov/grants-process/write-application/general-grant-writing-tips/tips-for-tables-charts-and-figures",
+      "evidence_type": "research communication guidance",
+      "inspection": "Design advice, data display and concepts sections; page last updated 2024-09-03",
+      "supported_claim": "Match display to communication purpose, retain units/sample context, and seek prereader feedback.",
+      "limit": "Grant-oriented suggestions; separate mandatory application rules from general manuscript design advice.",
+      "verified": true
+    },
+    {
+      "id": "R08",
+      "title": "Layout",
+      "authors": "Bang Wong",
+      "year": 2011,
+      "url": "https://doi.org/10.1038/nmeth.1711",
+      "evidence_type": "expert design column",
+      "inspection": "Publisher indexed excerpt only; direct retrieval encountered identity-provider error",
+      "supported_claim": "The accessible excerpt describes layout as organization that clarifies communication.",
+      "limit": "Full column not inspected; no detailed numeric or golden-ratio prescription derived from it. Background lead only, not a required authority in the decision rules.",
+      "verified": "partial"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "id": "ieee",
+  "title": "IEEE journal graphics",
+  "scope": {
+    "publication": "IEEE journals (general author-center guidance; confirm exact journal)",
+    "article_types": [
+      "research article"
+    ],
+    "stages": [
+      "initial",
+      "revision",
+      "final"
+    ]
+  },
+  "coverage_note": "Partial profile; only listed rules covered. Check current article-specific and editorial instructions.",
+  "sources": [
+    {
+      "id": "graphics",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/create-graphics-for-your-article/file-formatting/",
+      "title": "File Formatting",
+      "accessed_on": "2026-11-02",
+      "verification_state": "verified"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ieee.graphics-formats",
+      "key": "figure.file_format",
+      "summary": "Graphics may be submitted as PS, EPS, PDF, PNG, or TIFF; Office formats have an original-drawing condition and JPEG is for author photos only.",
+      "source_id": "graphics",
+      "source_summary": "Graphics may be submitted as PS, EPS, PDF, PNG, or TIFF; Office formats have an original-drawing condition and JPEG is for author photos only.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "figure"
+        ]
+      },
+      "constraint": null
+    },
+    {
+      "id": "ieee.font-embedding",
+      "key": "figure.font_embedding",
+      "summary": "For EPS, PS, or PDF, embed fonts or convert text to outlines.",
+      "source_id": "graphics",
+      "source_summary": "For EPS, PS, or PDF, embed fonts or convert text to outlines.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "figure"
+        ]
+      },
+      "constraint": null
+    },
+    {
+      "id": "ieee.graphic-name",
+      "key": "figure.file_naming",
+      "summary": "Name graphics using the first five letters of the primary author surname and sequential figure number.",
+      "source_id": "graphics",
+      "source_summary": "Name graphics using the first five letters of the primary author surname and sequential figure number.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "figure"
+        ]
+      },
+      "constraint": null
+    },
+    {
+      "id": "ieee.table-name",
+      "key": "table.file_naming",
+      "summary": "Table file names use the first five surname letters, .t, and the table number.",
+      "source_id": "graphics",
+      "source_summary": "Table file names use the first five surname letters, .t, and the table number.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "table"
+        ]
+      },
+      "constraint": null
+    },
+    {
+      "id": "ieee.type-size",
+      "key": "figure.text_size",
+      "summary": "Type should appear approximately 9\u201310 points at full size.",
+      "source_id": "graphics",
+      "source_summary": "Type should appear approximately 9\u201310 points at full size.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "recommendation",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "figure"
+        ]
+      },
+      "constraint": null
+    },
+    {
+      "id": "ieee.consistent-type",
+      "key": "figure.typography_consistency",
+      "summary": "Keep typeface and size consistent across graphics and tables.",
+      "source_id": "graphics",
+      "source_summary": "Keep typeface and size consistent across graphics and tables.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "recommendation",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "figure"
+        ]
+      },
+      "constraint": null
+    }
+  ]
+}

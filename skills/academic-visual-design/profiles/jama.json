@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "id": "jama",
+  "title": "JAMA",
+  "scope": {
+    "publication": "JAMA",
+    "article_types": [
+      "research article"
+    ],
+    "stages": [
+      "initial",
+      "revision",
+      "final"
+    ]
+  },
+  "coverage_note": "Partial profile; only listed rules covered. Check current article-specific and editorial instructions.",
+  "sources": [
+    {
+      "id": "authors",
+      "url": "https://jamanetwork.com/journals/jama/pages/instructions-for-authors",
+      "title": "Instructions for Authors",
+      "accessed_on": "2026-11-02",
+      "verification_state": "verified"
+    }
+  ],
+  "rules": [
+    {
+      "id": "jama.table-images",
+      "key": "table.image_format",
+      "summary": "Do not embed tables as images or upload them in image formats.",
+      "source_id": "authors",
+      "source_summary": "Do not embed tables as images or upload them in image formats.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "table"
+        ]
+      },
+      "constraint": {
+        "kind": "prohibited",
+        "value": true,
+        "unit": null
+      }
+    },
+    {
+      "id": "jama.table-columns",
+      "key": "table.columns",
+      "summary": "Tables have at least two columns.",
+      "source_id": "authors",
+      "source_summary": "Tables have at least two columns.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "table"
+        ]
+      },
+      "constraint": {
+        "kind": "min",
+        "value": 2,
+        "unit": "columns"
+      }
+    },
+    {
+      "id": "jama.table-numerator",
+      "key": "table.percentage_counts",
+      "summary": "Include numerator and denominator when presenting percentages in tables.",
+      "source_id": "authors",
+      "source_summary": "Include numerator and denominator when presenting percentages in tables.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "table"
+        ]
+      },
+      "constraint": null
+    },
+    {
+      "id": "jama.table-spacing",
+      "key": "table.spacing",
+      "summary": "Use single spacing for manuscript tables.",
+      "source_id": "authors",
+      "source_summary": "Use single spacing for manuscript tables.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "table"
+        ]
+      },
+      "constraint": {
+        "kind": "equals",
+        "value": "single",
+        "unit": null
+      }
+    },
+    {
+      "id": "jama.pie",
+      "key": "figure.pie_chart",
+      "summary": "Do not use pie charts.",
+      "source_id": "authors",
+      "source_summary": "Do not use pie charts.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "figure"
+        ]
+      },
+      "constraint": {
+        "kind": "prohibited",
+        "value": true,
+        "unit": null
+      }
+    },
+    {
+      "id": "jama.axes",
+      "key": "figure.axis_labels",
+      "summary": "Label axes in statistical graphs.",
+      "source_id": "authors",
+      "source_summary": "Label axes in statistical graphs.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "figure"
+        ]
+      },
+      "constraint": null
+    },
+    {
+      "id": "jama.graph-units",
+      "key": "figure.measurement_units",
+      "summary": "Provide units for continuous data in statistical graphs.",
+      "source_id": "authors",
+      "source_summary": "Provide units for continuous data in statistical graphs.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "figure"
+        ]
+      },
+      "constraint": null
+    }
+  ]
+}

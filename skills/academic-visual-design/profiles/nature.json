@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "id": "nature",
+  "title": "Nature",
+  "scope": {
+    "publication": "Nature (flagship journal)",
+    "article_types": [
+      "research article"
+    ],
+    "stages": [
+      "initial",
+      "revision",
+      "final"
+    ]
+  },
+  "coverage_note": "Partial profile for main research Articles; Extended Data delivery differs. Final-artwork editability and final-table delivery remain unverified.",
+  "sources": [
+    {
+      "id": "format",
+      "url": "https://www.nature.com/nature/for-authors/formatting-guide?trk=public_post-text",
+      "title": "Formatting guide",
+      "accessed_on": "2026-11-02",
+      "verification_state": "verified"
+    },
+    {
+      "id": "final",
+      "url": "https://www.nature.com/nature/for-authors/final-submission",
+      "title": "Final submission",
+      "accessed_on": null,
+      "verification_state": "unverified"
+    }
+  ],
+  "rules": [
+    {
+      "id": "nature.initial-figures",
+      "key": "figure.initial_submission",
+      "summary": "For initial review, combine manuscript, figures and adjacent legends in one Word or PDF file when practical.",
+      "source_id": "format",
+      "source_summary": "Format of Articles; Figure legends: encouraged initial assembly.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "recommendation",
+      "applicability": {
+        "stages": [
+          "initial"
+        ],
+        "artifacts": [
+          "figure"
+        ]
+      },
+      "constraint": null
+    },
+    {
+      "id": "nature.final-legends",
+      "key": "figure.legend_delivery",
+      "summary": "At final acceptance preparation, collect legends in the manuscript after references, separately from figure files.",
+      "source_id": "format",
+      "source_summary": "Figure legends: final separation is mandatory.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "final"
+        ],
+        "artifacts": [
+          "figure"
+        ]
+      },
+      "constraint": null
+    },
+    {
+      "id": "nature.uncertainty",
+      "key": "figure.uncertainty_definition",
+      "summary": "Define every error bar and statistic in the legend.",
+      "source_id": "format",
+      "source_summary": "Figure legends: uncertainty and statistics need definitions.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "figure"
+        ]
+      },
+      "constraint": {
+        "kind": "required",
+        "value": true,
+        "unit": null
+      }
+    },
+    {
+      "id": "nature.width-guidance",
+      "key": "figure.width",
+      "summary": "Standard figure widths guide layout; choose for clarity rather than treating these as mandatory dimensions.",
+      "source_id": "format",
+      "source_summary": "Figures: standard single- and double-column widths are guidance.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "recommendation",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "figure"
+        ]
+      },
+      "constraint": {
+        "kind": "one_of",
+        "value": [
+          90,
+          180
+        ],
+        "unit": "mm"
+      }
+    },
+    {
+      "id": "nature.portrait-tables",
+      "key": "table.orientation",
+      "summary": "Present each main table upright on a separate portrait page.",
+      "source_id": "format",
+      "source_summary": "Tables: portrait placement guidance.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "recommendation",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "table"
+        ]
+      },
+      "constraint": {
+        "kind": "equals",
+        "value": "portrait",
+        "unit": null
+      }
+    },
+    {
+      "id": "nature.final-figure-editability",
+      "key": "figure.editable_text",
+      "summary": "Check final-submission instructions on editable figure text.",
+      "source_id": "final",
+      "source_summary": "Official page redirected to an inaccessible sign-in endpoint; provisional statement not verified.",
+      "verified_on": null,
+      "verification_state": "unverified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "final"
+        ],
+        "artifacts": [
+          "figure"
+        ]
+      },
+      "constraint": null
+    },
+    {
+      "id": "nature.final-tables",
+      "key": "table.delivery",
+      "summary": "Check final-submission table delivery instructions.",
+      "source_id": "final",
+      "source_summary": "Official page redirected to an inaccessible sign-in endpoint; provisional statement not verified.",
+      "verified_on": null,
+      "verification_state": "unverified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "final"
+        ],
+        "artifacts": [
+          "table"
+        ]
+      },
+      "constraint": null
+    }
+  ]
+}

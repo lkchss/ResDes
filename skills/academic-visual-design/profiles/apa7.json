@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "id": "apa7",
+  "title": "APA Style, seventh edition",
+  "scope": {
+    "publication": "APA Publication Manual, seventh edition",
+    "article_types": [
+      "APA Style papers"
+    ],
+    "stages": [
+      "initial",
+      "revision",
+      "final"
+    ]
+  },
+  "coverage_note": "Partial profile; only listed rules covered. Check current article-specific and editorial instructions.",
+  "sources": [
+    {
+      "id": "tables",
+      "url": "https://apastyle.apa.org/style-grammar-guidelines/tables-figures/tables",
+      "title": "Table setup",
+      "accessed_on": "2026-11-02",
+      "verification_state": "verified"
+    },
+    {
+      "id": "figures",
+      "url": "https://apastyle.apa.org/style-grammar-guidelines/tables-figures/figures",
+      "title": "Figure setup",
+      "accessed_on": "2026-11-02",
+      "verification_state": "verified"
+    }
+  ],
+  "rules": [
+    {
+      "id": "apa7.vertical-borders",
+      "key": "table.vertical_borders",
+      "summary": "Do not use vertical borders to separate data.",
+      "source_id": "tables",
+      "source_summary": "Do not use vertical borders to separate data.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "table"
+        ]
+      },
+      "constraint": {
+        "kind": "prohibited",
+        "value": true,
+        "unit": null
+      }
+    },
+    {
+      "id": "apa7.column-headings",
+      "key": "table.column_headings",
+      "summary": "Include column headings, including a stub heading.",
+      "source_id": "tables",
+      "source_summary": "Include column headings, including a stub heading.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "table"
+        ]
+      },
+      "constraint": {
+        "kind": "required",
+        "value": true,
+        "unit": null
+      }
+    },
+    {
+      "id": "apa7.word-table",
+      "key": "table.editable_structure",
+      "summary": "Use the word processor table feature rather than manually aligned tabs or spaces.",
+      "source_id": "tables",
+      "source_summary": "Use the word processor table feature rather than manually aligned tabs or spaces.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "table"
+        ]
+      },
+      "constraint": null
+    },
+    {
+      "id": "apa7.figure-text-min",
+      "key": "figure.text_size_min",
+      "summary": "Text within a figure uses a sans serif font between 8 and 14 points.",
+      "source_id": "figures",
+      "source_summary": "Text within a figure uses a sans serif font between 8 and 14 points.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "figure"
+        ]
+      },
+      "constraint": {
+        "kind": "min",
+        "value": 8,
+        "unit": "pt"
+      }
+    },
+    {
+      "id": "apa7.figure-text-max",
+      "key": "figure.text_size_max",
+      "summary": "Text within a figure uses a sans serif font between 8 and 14 points.",
+      "source_id": "figures",
+      "source_summary": "Text within a figure uses a sans serif font between 8 and 14 points.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "figure"
+        ]
+      },
+      "constraint": {
+        "kind": "max",
+        "value": 14,
+        "unit": "pt"
+      }
+    },
+    {
+      "id": "apa7.figure-units",
+      "key": "figure.measurement_units",
+      "summary": "Provide units of measurement in figures.",
+      "source_id": "figures",
+      "source_summary": "Provide units of measurement in figures.",
+      "verified_on": "2026-11-02",
+      "verification_state": "verified",
+      "strength": "requirement",
+      "applicability": {
+        "stages": [
+          "all"
+        ],
+        "artifacts": [
+          "figure"
+        ]
+      },
+      "constraint": {
+        "kind": "required",
+        "value": true,
+        "unit": null
+      }
+    }
+  ]
+}
