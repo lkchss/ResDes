@@ -1,6 +1,6 @@
 # ResDes
 
-An agent skill for designing and refining academic figures and tables while preserving scientific meaning.
+An agent skill for academic figure and table design.
 
 ## Install
 
