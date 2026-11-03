@@ -4,7 +4,13 @@ An agent skill for designing and refining academic figures and tables while pres
 
 ## Install
 
-Clone this repository and copy [`skills/academic-visual-design`](skills/academic-visual-design) into your agent's skills directory. For Codex, use `~/.codex/skills/`.
+```sh
+npx skills add https://github.com/lkchss/ResDes --skill academic-visual-design
+```
+
+Choose your agent and installation scope when prompted.
+
+Alternatively, [download the repository ZIP](https://github.com/lkchss/ResDes/archive/refs/heads/main.zip) and copy [`skills/academic-visual-design`](skills/academic-visual-design) into your agent's skills directory. For Codex, use `~/.codex/skills/`.
 
 ## Use
 
