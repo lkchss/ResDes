@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-03",
+  "status": "experimental",
+  "model_setup": "GPT-6.1 Sol high coordinator with fresh GPT-6.1 Terra high workers; no corrective feedback during runs",
+  "study": {
+    "citation": "Cortez et al. (2009), Decision Support Systems 47:547-553",
+    "paper_doi": "10.1016/j.dss.2009.05.016",
+    "dataset_doi": "10.24432/C56S3T"
+  },
+  "matched_review_test": {
+    "comparison": "v8 versus v9; identical neutral prompt, runtime and eight-minute cap",
+    "shared_setup_changes": "Removed downstream-review cue and exposed the same PDF-to-image tool path to both arms",
+    "observed": "Both viewed final AER and JAMA Word page images after final generation; no later layout changes",
+    "integrity": "14 table groups and 65 plotted summary values verified per output",
+    "limitations": [
+      "No v9-specific advantage established",
+      "Review comments remained broad",
+      "v9 moved sample totals from headers into notes, a design-retention regression"
+    ]
+  },
+  "controlled_challenge": {
+    "skill": "v9",
+    "fixture": "Isolated Word copy with one numeric entry rendered white on white; underlying data unchanged",
+    "worker_prompt": "Neutral review/finalize request; defect type and location withheld",
+    "observed": "Viewed preliminary Word page, identified hidden red-wine rating-8 summary, repaired font color, regenerated and viewed final page",
+    "independent_checks": [
+      "All 14 table groups verified",
+      "Every table-cell text value unchanged",
+      "Final Word render visibly restored the entry",
+      "JAMA table remained borderless",
+      "No post-review artifact edits"
+    ],
+    "preview": "before-after.png",
+    "limitations": [
+      "One controlled visibility defect in a known paper, not general reliability evidence",
+      "Worker also claimed symbol repair; unchanged table text does not independently substantiate that claim"
+    ]
+  },
+  "scope": "Selected formatting specimens, not full journal submission certification"
+}

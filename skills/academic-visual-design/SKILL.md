@@ -26,7 +26,7 @@ Preserve the evidence layer across redesigns and conversions. Presentation round
 - For design or critique, read [academic design context](references/design-evidence/design-context.md) to identify the reader's task, intended comparison and tradeoffs. Use the linked source registers to distinguish research findings, editorial requirements and design synthesis; do not load all sources for routine work.
 - For a quantitative or conceptual figure, read [figures](references/figures.md).
 - For a table, read [tables](references/tables.md).
-- For a destination change, submission formatting, or uncertain journal rules, read [journal switching](references/journal-switching.md).
+- For a destination change, submission formatting, or uncertain journal rules, read [journal switching](references/journal-switching.md). Adapt the existing design through that route; a new venue does not itself call for a new structure.
 - For critique, refinement, and the final review of a newly created artifact, read [critique](references/critique.md). Creation is not complete at the first valid render. Combine references when the task spans modes.
 
 For a new design with more than one plausible structure, use a small comparison before polishing:
@@ -38,7 +38,7 @@ For a new design with more than one plausible structure, use a small comparison 
 
 Keep this bounded to two structures and one correction pass, not a gallery of chart types. Retain a conventional representation when it wins the comparison. For cosmetic edits or a user-fixed structure, preserve it and improve within the given constraints; do not restart structural exploration.
 
-For refinement, retain evidence and intended message while fixing observed problems. For conversion, compare source and output evidence and document intentional changes. For critique, distinguish observed issues from uncertainties and propose concrete fixes.
+For refinement, retain evidence and intended message while fixing observed problems. For conversion, compare source and output evidence, document intentional changes, and verify destination requirements in the final native deliverables using the journal-switching reference. For critique, distinguish observed issues from uncertainties and propose concrete fixes.
 
 ## Checks and delivery
 
@@ -46,7 +46,7 @@ For refinement, retain evidence and intended message while fixing observed probl
 2. **Applicable requirements and defaults:** apply current, authoritative, destination- and stage-specific requirements. Surface conflicts and unknowns; do not merge contradictory rules or call an unverified requirement satisfied. Apply broader style defaults only where applicable and subordinate to specific requirements. If a user chooses a noncompliant draft, identify the deviation.
 3. **Academic communication:** assess whether the representation, precision, hierarchy and annotations help the reader perform the intended comparison at the delivered size. A correct table can still make the central comparison unnecessarily difficult. Explain that specific difficulty rather than calling an alternative style inherently wrong. Preserve useful structure and valid alternative designs; visual simplicity is not an end in itself.
 
-Use the reader walkthrough in the critique reference on the rendered artifact at delivery size. Carry a concrete finding through one correction pass and verify the changed location, including any affected caption or note. A choice between two layouts does not replace this review of the selected layout. Preserve a sound design when no consequential issue is found; do not invent a defect to justify revision. If rendering is unavailable, state the limit.
+Use the reader walkthrough in the critique reference on the rendered artifact at delivery size. Carry a concrete finding through one correction pass and verify the changed location, including any affected caption or note. A choice between two layouts does not replace this review of the selected layout. Preserve a sound design when no consequential issue is found; do not invent a defect to justify revision. For native deliverables, open and inspect images rendered from the final native file; successful export alone is not visual review. If rendering or viewing is unavailable, state the attempted operation and the limit.
 
 Check actual font appearance, glyphs and labels after export; a declared font or a nominal size does not establish legibility. If a known, fixable rendering defect prevents the requested use, make a bounded correction instead of merely adding a disclaimer. When critiquing, cross-check each allegation against the source and visible content, including titles and notes, before proposing changes.
 

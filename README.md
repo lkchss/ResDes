@@ -14,6 +14,10 @@ Supports figure and table design, critique, research-context ingestion, and jour
 
 Experimental. Review outputs before publication; journal requirements need current verification. Visual review can still miss caption-to-marker mismatches.
 
+## Evaluation
+
+The skill explicitly preserves useful structure during journal changes and requires viewing final native exports, with reinspection after repairs. In a controlled Word test, an unprompted reviewer found an invisible value, repaired its formatting, and viewed the final export without changing the table data. Both v8 and v9 completed native inspection in a matched test with clarified tooling; this does not establish a v9-specific advantage or general design reliability. See the [test results and limitations](evaluations/native-review/results.json) and [rendered before/after](evaluations/native-review/before-after.png).
+
 ## Development
 
 Python 3 is required for the profile utility and its tests:
